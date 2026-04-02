@@ -16,6 +16,6 @@ receivers:
 
   - name: 'team-slack'
     slack_configs:
-    - api_url: 'https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX'
+    - api_url: 'api_url: "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK"
       channel: '#alerts'
       send_resolved: true
